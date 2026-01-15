@@ -1,0 +1,5 @@
+services:
+  stream_wrapper.albumav:
+    class: Drupal\media_album_s3\StreamWrapper\AlbumsStream
+    tags:
+      - { name: stream_wrapper, scheme: albumav }

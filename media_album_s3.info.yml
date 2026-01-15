@@ -1,0 +1,9 @@
+name: Media Album S3
+type: module
+description: 'Module to implement StreamWrapper (albumav://" scheme) for S3 storage.'
+core_version_requirement: ^10
+package: Custom
+config_devel:
+dependencies:
+  - drupal:s3fs
+
